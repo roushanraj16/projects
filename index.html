@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Web Project</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header class="page-header">
+    <h1>My Interactive Web Project</h1>
+    <p>A clean, responsive layout with animations and features.</p>
+  </header>
+
+  <section class="grid-two-column">
+    <div class="card contact-form">
+      <h2>Contact Form</h2>
+      <input type="text" id="name" placeholder="Your Name"/>
+      <input type="email" id="email" placeholder="Your Email"/>
+      <input type="text" id="message" placeholder="Your Message"/>
+      <button onclick="validateForm()">Submit</button>
+      <p id="form-status"></p>
+    </div>
+
+    <div class="card todo-container">
+      <h2>To-Do List</h2>
+      <input type="text" id="taskInput" placeholder="Add a new task"/>
+      <button onclick="addTask()">Add Task</button>
+      <div id="taskList"></div>
+    </div>
+  </section>
+
+  <section class="layout">
+    <div class="card sidebar">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <h4>Follow Us</h4>
+      <p>
+        <a href="#">LinkedIn</a> | 
+        <a href="#">GitHub</a> | 
+        <a href="#">Twitter</a>
+      </p>
+    </div>
+
+    <div class="card content">
+     <h1>Welcome to Our Web App</h1>
+     <p>Experience a seamless, powerful, and user-friendly platform built to simplify your digital journey.</p>
+     <a href="#get-started" class="btn-primary">Get Started</a>
+    </div>
+
+
+    
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
